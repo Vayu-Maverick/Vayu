@@ -1,11 +1,15 @@
-# Vayu Vimanan
+# Vayu
 
-The home of Vayu Vimanan: an early-stage aircraft vision and a pitch for a more thoughtful way to move through the sky.
+Vayu is Team Vayu's early-stage concept for an autonomous heavy-lift airship. This repository includes a responsive website introducing the proposal and its design targets.
 
-## Preview
+## View locally
 
-Open `index.html` in a browser. The site is a static, responsive landing page and does not require a build step or dependencies.
+Open `index.html` in a browser. The site is static and needs no build step or dependencies.
 
-## Publish
+## Publish with GitHub Pages
 
-Publish the repository root with GitHub Pages (or any static web host) to make the pitch available as a website. The page uses `styles.css` for its responsive layout and styling.
+The workflow in `.github/workflows/pages.yml` publishes the repository root to GitHub Pages after changes are pushed to `main`. In the repository's **Settings → Pages**, select **GitHub Actions** as the build and deployment source if it is not already selected. Once enabled, the workflow provides the published page URL in its deployment details.
+
+## About the figures
+
+Specifications and systems described on the site are concept-stage proposal targets, not verified or certified performance. Detailed engineering, analysis, testing, and regulatory engagement remain future work.
